@@ -8,6 +8,7 @@
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
   --white-color: #fff;
+  --customers-icon-color: #afb1b8;
 }
 
 /* ============= Generals ============= */
@@ -38,7 +39,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-.section {
+.page-section {
   padding: 120px 0;
 }
 
@@ -271,6 +272,39 @@ img {
   fill: currentColor;
 }
 
+/* ===== Customers ===== */
+.customers {
+  padding-top: 130px;
+}
+.customers-title {
+  font-size: 36px;
+  line-height: 1.111;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+.customers-list {
+  list-style: none;
+  display: flex;
+  column-gap: 24px;
+}
+.customer-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-slate-color);
+  border: 1px solid var(--light-slate-color);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+.customer-icon {
+  fill: currentColor;
+}
+.customer-link:hover,
+.customer-link:focus {
+  color: var(--ocean-color);
+  border: 1px solid var(--ocean-color);
+}
 /* ============= portfolio.html ============= */
 /* ============= Main ============= */
 .projects {
