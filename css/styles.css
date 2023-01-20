@@ -8,7 +8,7 @@
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
   --white-color: #fff;
-  --customers-icon-color: #afb1b8;
+  --footer-social-icons-bg: rgba(255, 255, 255, 0.1);
 }
 
 /* ============= Generals ============= */
@@ -305,6 +305,7 @@ img {
   color: var(--ocean-color);
   border: 1px solid var(--ocean-color);
 }
+
 /* ============= portfolio.html ============= */
 /* ============= Main ============= */
 .projects {
@@ -383,14 +384,37 @@ img {
 .page-footer {
   background-color: var(--navy-blue-color);
   padding: 100px 0;
+  color: var(--white-color);
+}
+.page-footer .container {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 120px;
 }
 .page-footer .logo {
+  display: inline-block;
   color: var(--cloud-color);
+  margin-bottom: 16px;
 }
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflower-color);
   max-width: 264px;
-  margin-top: 16px;
+}
+.footer-social .social-list {
+  column-gap: 16px;
+}
+.footer-social-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-social .social-link {
+  background-color: var(--footer-social-icons-bg);
+}
+.footer-social .social-link:hover,
+.footer-social .social-link:focus {
+  background-color: var(--green-color);
 }
