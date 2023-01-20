@@ -115,8 +115,17 @@ img {
 
 /* ===== Hero ===== */
 .hero {
-  background-color: var(--navy-blue-color);
   padding: 188px 0;
+  background-color: var(--navy-blue-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .hero-title {
   color: var(--white-color);
@@ -157,6 +166,19 @@ img {
 .features-item {
   flex-basis: calc(100% / 4 - 24px);
   margin-left: 24px;
+}
+.feature-icon-container {
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: var(--cloud-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+.feature-icon {
+}
+.features-content {
 }
 .features-item-title {
   font-weight: 500;
