@@ -176,10 +176,6 @@ img {
   align-items: center;
   padding: 24px 0;
 }
-.feature-icon {
-}
-.features-content {
-}
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -234,7 +230,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-card-content {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .team-card-title {
   font-weight: 500;
@@ -242,13 +238,37 @@ img {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .team-card-text {
   color: var(--slate-color);
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 8px 0;
+}
+
+/* ===== Social-Team ===== */
+.social-list {
+  list-style: none;
+  display: flex;
+  column-gap: 24px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
+  color: var(--cloud-color);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--ocean-color);
+}
+.social-icon {
+  fill: currentColor;
 }
 
 /* ============= portfolio.html ============= */
