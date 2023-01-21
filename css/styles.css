@@ -379,8 +379,8 @@ img {
   border: 1px solid var(--cornflower-color);
   border-top: none;
 }
-.project-card:hover .project-cards-content,
-.project-card:focus .project-cards-content {
+.project-card-link:hover .project-cards-content,
+.project-card-link:focus .project-cards-content {
   border: 0.5px solid var(--cloud-color);
   border-top: none;
 }
