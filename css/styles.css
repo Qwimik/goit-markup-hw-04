@@ -117,7 +117,8 @@ img {
 /* ===== Hero ===== */
 .hero {
   padding: 188px 0;
-  background-color: var(--navy-blue-color);
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
@@ -175,7 +176,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
+  height: 112px;
 }
 .features-item-title {
   font-weight: 500;
@@ -360,10 +361,15 @@ img {
   flex-basis: calc(100% / 3 - 24px);
   margin-left: 24px;
   margin-top: 48px;
+}
+.project-card-link {
+  color: currentColor;
+  text-decoration: none;
+  display: inline-block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.project-card:hover,
-.project-card:focus {
+.project-card-link:hover,
+.project-card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
